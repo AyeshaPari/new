@@ -160,7 +160,7 @@ logo=("""\033[1;97m
  |_|  |_|_|    |_|  |_|\___|_| |_|\__\__,_|_|'
 \33[1;37m----------------------------------------------
 →   Owner      :  Anusha
-→   Facebook   :  Dirojay Sumball
+→   Facebook   :  Pari
 →   Github     :  Anusha
 →   Tool Type  :  \x1b[1;91mFREE
 \x1b[1;97m→   Version    :  2.1
